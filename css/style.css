@@ -1,0 +1,811 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 15px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+.fixed-width {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.btn {
+  width: 14rem;
+  height: 2.8rem;
+  background-color: #f64b3c;
+  color: #fff;
+  border: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 2.5rem;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: transparent;
+  border: 2px solid #f64b3c;
+  color: #f64b3c;
+}
+
+#home {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/pics01.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+  color: #fff;
+  padding: 2rem 0;
+}
+
+#home nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#home nav .logo img {
+  width: 80%;
+}
+
+#home nav .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 55%;
+}
+
+#home nav .navigation li {
+  list-style: none;
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+#home nav .navigation li :hover {
+  color: #f64b3c;
+}
+
+#home nav .navigation a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#home nav .hamburger {
+  display: none;
+}
+
+#home .banner {
+  padding-top: 5.6rem;
+}
+
+#home .banner h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 5.3rem;
+}
+
+#home .banner p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2rem;
+  margin-top: 2.6rem;
+}
+
+#Our-Chef {
+  width: 100%;
+  background-color: #f6eedf;
+  padding: 4rem 0;
+  text-align: center;
+  color: #f64b3c;
+}
+
+#Our-Chef h1 {
+  font-size: 3.1rem;
+  font-weight: 600;
+}
+
+#Our-Chef p {
+  padding: 2rem 0;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+#Our-Chef .box-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#Our-Chef .box-1 .sec-A {
+  width: 30%;
+}
+
+#Our-Chef .box-1 .sec-A .img-i {
+  width: 100%;
+}
+
+#Our-Chef .box-1 .sec-A .img-i img {
+  border-radius: 100%;
+}
+
+#Our-Chef .box-1 .sec-A h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 1rem 0;
+}
+
+#Our-Chef .box-1 .sec-A h4 {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+#Best-Burger {
+  width: 100%;
+  background-color: #f64b3c;
+  color: #fff;
+  padding: 4rem 0;
+}
+
+#Best-Burger .image-1 {
+  width: 35%;
+}
+
+#Best-Burger .image-1 img {
+  width: 100%;
+  border-radius: 100%;
+}
+
+#Best-Burger .image-1 img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#Best-Burger .para-1 {
+  width: 55%;
+  padding-left: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#Best-Burger .para-1 h1 {
+  font-size: 3.7rem;
+  font-weight: 600;
+}
+
+#Best-Burger .para-1 p {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  padding: 2rem 0 1rem 0;
+}
+
+#Best-Burger .para-1 .change-color {
+  background-color: #fff;
+  color: #f64b3c;
+}
+
+#Best-Burger .para-1 .change-color:hover {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#Big-Burger {
+  width: 100%;
+  background-color: #f6eedf;
+  color: #f64b3c;
+  padding: 4rem 0;
+}
+
+#Big-Burger .para-2 {
+  width: 55%;
+  padding-left: 7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#Big-Burger .para-2 h1 {
+  font-size: 3.7rem;
+  font-weight: 600;
+}
+
+#Big-Burger .para-2 p {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  padding: 2rem 0 1rem 0;
+}
+
+#Big-Burger .image-2 {
+  width: 35%;
+  padding-right: 2rem;
+}
+
+#Big-Burger .image-2 img {
+  width: 100%;
+  border-radius: 100%;
+}
+
+#Big-Burger .image-2 img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#Statistics {
+  width: 100%;
+  background-color: #f64b3c;
+  color: #fff;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+#Statistics h1 {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+#Statistics p {
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding: 2rem 0;
+}
+
+#Statistics .box-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem 0;
+}
+
+#Statistics .box-2 .sec-B {
+  width: 30%;
+}
+
+#Statistics .box-2 .sec-B .heading {
+  max-width: 200px;
+  margin: 0 auto;
+  border: 3px solid #fff;
+  border-radius: 100%;
+}
+
+#Statistics .box-2 .sec-B .heading .head {
+  text-align: center;
+  padding: 45px 0;
+}
+
+#Statistics .box-2 .sec-B .heading .head h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+#Statistics .box-2 .sec-B .heading .head h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+#Popular-Package {
+  width: 100%;
+  background-color: #f6eedf;
+  color: #f64b3c;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+#Popular-Package h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+#Popular-Package .box-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 3rem;
+}
+
+#Popular-Package .box-3 .sec-C {
+  width: 30%;
+  background-color: #fff;
+  padding: 2rem 0;
+}
+
+#Popular-Package .box-3 .sec-C h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+#Popular-Package .box-3 .sec-C img {
+  width: 20%;
+  padding: 1.5rem 0;
+}
+
+#Popular-Package .box-3 .sec-C h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+
+#Barry-Henderson {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/pics07.png");
+  color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom center;
+  text-align: center;
+}
+
+#Barry-Henderson .texter {
+  padding-top: 25%;
+}
+
+#Barry-Henderson .texter p {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+#Barry-Henderson .texter h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  padding-top: 2rem;
+}
+
+#Our-Update {
+  width: 100%;
+  background-color: #f6eedf;
+  color: #f64b3c;
+  padding: 8rem 0;
+  text-align: center;
+}
+
+#Our-Update .texter-B h1 {
+  font-size: 2.6rem;
+  font-weight: 700;
+}
+
+#Our-Update .texter-B p {
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 2rem 0;
+}
+
+#Our-Update .texter-B #my-email {
+  border: 0;
+  width: 25%;
+  padding: 1rem 2rem;
+  border-radius: 4rem 0 0 4rem;
+}
+
+#Our-Update .texter-B .change {
+  border-radius: 0rem 4rem 4rem 0rem;
+  cursor: pointer;
+  margin-top: 1.2rem;
+  font-size: 1rem;
+  font-weight: 400;
+  width: 10rem;
+}
+
+#footer {
+  width: 100%;
+  background-color: #222222;
+  color: #fff;
+  padding: 5rem 0;
+}
+
+#footer .service {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#footer .service .left-side {
+  width: 40%;
+}
+
+#footer .service .left-side h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+#footer .service .left-side p {
+  padding: 1.6rem 0;
+  font-size: 1.09rem;
+  font-weight: 400;
+  line-height: 1.7rem;
+}
+
+#footer .service .left-side .social .icon {
+  background-color: #fff;
+  border-radius: 100%;
+  padding: 0.6rem 0.7rem;
+  color: #222222;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin: 0 0.3rem;
+}
+
+#footer .service .left-side .fab {
+  background-color: #fff;
+  border-radius: 100%;
+  padding: 0.6rem 0.9rem;
+  color: #222222;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin: 0 0.3rem;
+}
+
+#footer .service .left-side .social .fa:hover {
+  background-color: #f64b3c;
+  color: #fff;
+}
+
+#footer .service .right-side {
+  width: 55%;
+}
+
+#footer .service .right-side h2 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding-bottom: 1.2rem;
+}
+
+#footer .service .right-side p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+}
+
+#footer .copyright {
+  text-align: center;
+  padding-top: 4rem;
+}
+
+#footer .copyright p {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+#footer .copyright span {
+  color: #f64b3c;
+}
+
+@media (max-width: 1000px) {
+  .fixed-width {
+    max-width: 900px;
+  }
+  #home nav .logo img {
+    width: 70%;
+  }
+  #home .banner h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 5rem;
+  }
+  #home .banner P {
+    font-size: 1.2rem;
+  }
+  #Best-Burger .para-1 p, #Big-Burger .para-2 p {
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+  #Statistics .box-2 .sec-B .heading .head {
+    padding: 55px 0;
+  }
+  #Statistics .box-2 .sec-B .heading .head h1 {
+    font-size: 3rem;
+  }
+  #Statistics .box-2 .sec-B .heading .head h3 {
+    font-size: 1.2rem;
+  }
+  #footer .service .left-side P {
+    font-size: 1.03rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .fixed-width {
+    max-width: 750px;
+  }
+  #home nav .navigation {
+    position: fixed;
+    width: 350px;
+    background-color: #000;
+    height: 100%;
+    z-index: 6;
+    top: 0px;
+    left: -550px;
+    text-align: center;
+  }
+  #home nav .navigation li {
+    width: 100%;
+  }
+  #home nav .navigation a {
+    display: block;
+  }
+  #home nav .active {
+    left: 0px;
+  }
+  #home nav .hamburger {
+    display: block;
+    height: 35px;
+    position: fixed;
+    right: 10px;
+    width: 45px;
+    height: 35px;
+    border-radius: 6px;
+    background-color: #f64b3c;
+    z-index: 999;
+    cursor: pointer;
+  }
+  #home nav .hamburger .line {
+    display: block;
+    background-color: #fff;
+    width: 34px;
+    height: 2px;
+    margin-top: 6px;
+    margin-left: 6px;
+  }
+  #home nav .hamburger .line-1 {
+    margin-top: 9px;
+  }
+  #home nav .hamburger .rotate-line-1 {
+    -webkit-transform: rotate(121deg) translate(6px, -3px);
+            transform: rotate(121deg) translate(6px, -3px);
+  }
+  #home nav .hamburger .rotate-line-2 {
+    -webkit-transform: rotate(243deg);
+            transform: rotate(243deg);
+  }
+  #home nav .hamburger .remove-line-3 {
+    display: none;
+  }
+  #Our-Chef h1 {
+    font-size: 2.5rem;
+  }
+  #Our-Chef p {
+    font-size: 1.2rem;
+    padding: 2rem 0 0 0;
+  }
+  #Our-Chef .box-1 .sec-A {
+    width: 100%;
+    padding-top: 3rem;
+  }
+  #Best-Burger .image-1 {
+    width: 100%;
+  }
+  #Best-Burger .para-1 {
+    width: 100%;
+    padding-top: 2.5rem;
+  }
+  #Best-Burger .para-1 h1 {
+    font-size: 3.2rem;
+  }
+  #Best-Burger .para-1 p {
+    font-size: 1.1rem;
+  }
+  #Big-Burger .para-2 {
+    width: 100%;
+  }
+  #Big-Burger .para-2 h1 {
+    font-size: 3.2rem;
+  }
+  #Big-Burger .para-2 p {
+    font-size: 1.1rem;
+  }
+  #Big-Burger .image-2 {
+    width: 100%;
+    padding-top: 3rem;
+    padding-right: 0;
+  }
+  #Statistics {
+    padding-bottom: 1rem;
+  }
+  #Statistics h1 {
+    font-size: 2.8rem;
+    font-weight: 500;
+  }
+  #Statistics p {
+    font-size: 1.1rem;
+  }
+  #Statistics .box-2 .sec-B {
+    width: 100%;
+    padding-bottom: 3rem;
+  }
+  #Popular-Package h1 {
+    font-size: 2.2rem;
+    font-weight: 500;
+  }
+  #Popular-Package .box-3 .sec-C {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  #Popular-Package .box-3 .sec-C h2 {
+    font-size: 1.5rem;
+  }
+  #Popular-Package .box-3 .sec-C img {
+    width: 13%;
+  }
+  #footer .service .left-side {
+    width: 100%;
+  }
+  #footer .service .right-side {
+    width: 100%;
+    padding-top: 3rem;
+  }
+  #footer .service .right-side h2 {
+    font-size: 1.3rem;
+  }
+  #footer .service .right-side p {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 520px) {
+  .fixed-width {
+    max-width: 400px;
+  }
+  #home .banner {
+    padding-top: 4rem;
+  }
+  #home .banner h1 {
+    font-size: 2.8rem;
+    font-weight: 500;
+    line-height: 4rem;
+  }
+  #home .banner P {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+  #Our-Chef h1 {
+    font-size: 2rem;
+  }
+  #Our-Chef p {
+    font-size: 0.83rem;
+  }
+  #Best-Burger .para-1 h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+  #Best-Burger .para-1 p {
+    font-size: 0.83rem;
+    font-weight: 500;
+  }
+  #Big-Burger .para-2 h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+  #Big-Burger .para-2 p {
+    font-size: 0.83rem;
+    font-weight: 500;
+  }
+  #Statistics h1 {
+    font-size: 2.5rem;
+  }
+  #Statistics p {
+    font-size: 0.83rem;
+  }
+  #Barry-Henderson .texter p {
+    font-size: 1rem;
+  }
+  #Barry-Henderson .texter h2 {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+  #Our-Update .texter-B h1 {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+  #Our-Update .texter-B p {
+    font-size: 0.83rem;
+  }
+  #Our-Update .texter-B #my-email {
+    width: 50%;
+  }
+  #Our-Update .texter-B .change {
+    font-size: 0.8rem;
+    width: 6rem;
+  }
+  #footer .service .right-side p {
+    font-size: 0.83rem;
+    font-weight: 400;
+  }
+  #footer .copyright p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  #home nav .navigation {
+    width: 80%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
