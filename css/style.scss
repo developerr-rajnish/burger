@@ -582,6 +582,7 @@ h1,h2,h3,h4,h5,h6,p{
     #Best-Burger{
         .image-1{
             width: 100%;
+            padding: 0 2rem; 
         }
         .para-1{
             width: 100%;
@@ -608,8 +609,7 @@ h1,h2,h3,h4,h5,h6,p{
         }
         .image-2{
             width: 100%;
-            padding-top: 3rem;
-            padding-right: 0;
+            padding: 3rem 2rem 0 2rem; 
         }
     }
     #Statistics{
@@ -771,8 +771,8 @@ h1,h2,h3,h4,h5,h6,p{
         #home nav .navigation{
             width: 80%;
         }
-    }
- 
+    } 
+
 
     
 
